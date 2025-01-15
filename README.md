@@ -73,10 +73,10 @@ npm start
 ## Screenshots
 
 1. **Homepage:**
-   ![Homepage Screenshot](assets/images/homepage-screenshot.png)
+   ![Homepage Screenshot](src/assets/images/homepage-screenshot.png)
 
 2. **Login:**
-   ![Todo List Screenshot](assets/images/login-screenshot.png)
+   ![Todo List Screenshot](src/assets/images/login-screenshot.png)
 
 3. **Add Todo:**
-   ![Add Todo Screenshot](assets/images/add-todo-screenshot.png)
+   ![Add Todo Screenshot](src/assets/images/add-todo-screenshot.png)
