@@ -1,0 +1,64 @@
+/* Ensure the navbar has a defined height */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 60px; /* Adjust the height as needed */
+    background-color: #f8f9fa;
+  }
+  
+  /* Logo Wrapper */
+  .logo__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo__wrapper img {
+    height: 40px; /* Adjust based on your logo size */
+    margin-right: 10px;
+  }
+  
+  /* Navigation Menu */
+  .navigation-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation-menu li {
+    margin: 0 15px;
+  }
+  
+  .navigation-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .navigation-menu a.activeNav {
+    color: #007bff;
+  }
+  
+  /* User Info in the Navbar */
+  .userInfoNav {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .userInfoNav img {
+    width: 40px; /* Match the size to fit within the navbar */
+    height: 40px; /* Ensures a square shape */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures the image doesn't stretch */
+    margin-right: 10px;
+  }
+  
+  .userInfoNav span {
+    font-size: 14px;
+    color: #333;
+  }
+  
