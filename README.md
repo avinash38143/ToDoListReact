@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Todo List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack Todo List application built with React.js for the frontend, Node.js for the backend, and MongoDB for storing data. This project allows users to manage tasks by adding, editing, deleting, and marking them as completed.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Create Todo**: Add new tasks to your to-do list.
+- **Edit Todo**: Update existing tasks.
+- **Delete Todo**: Remove tasks from the list.
+- **Mark Todo as Completed**: Toggle the status of tasks between pending and completed.
+- **Responsive Design**: Mobile-friendly interface to ensure a seamless experience across devices.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**:
+  - React.js
+  - React Router
+  - Axios
+  - CSS
+- **Backend**:
+  - Node.js
+  - Express.js
+  - MongoDB
+- **Development Tools**:
+  - npm
+  - VS Code (IDE)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+Ensure you have the following installed:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Node.js** (version >=14)
+- **npm** (version >=6)
+- **MongoDB**: You can use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) or a local MongoDB instance.
 
-### `npm run build`
+## Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+First, clone the repository to your local machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/yourusername/todo-list-app.git
+cd todo-list-app
+```
+### 2. Setting up the Backend
 
-### `npm run eject`
+Navigate to the server folder and install the necessary dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd server
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+##### The backend code avaliable at:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+(https://github.com/avinash38143/To_DoApplication)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+### 3. Start the Backend Server
+Start the backend server:
 
-## Learn More
+```bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Ensure Both Frontend and Backend are Running
+#### Backend: Make sure the backend server is running on http://localhost:5000.
+#### Frontend: The frontend will be running on http://localhost:3000.
 
-### Code Splitting
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Homepage:**
+   ![Homepage Screenshot](assets/images/homepage-screenshot.png)
 
-### Analyzing the Bundle Size
+2. **Login:**
+   ![Todo List Screenshot](assets/images/login-screenshot.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. **Add Todo:**
+   ![Add Todo Screenshot](assets/images/add-todo-screenshot.png)
