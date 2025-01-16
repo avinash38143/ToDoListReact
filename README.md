@@ -40,7 +40,7 @@ Ensure you have the following installed:
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/todo-list-app.git
+git clone https://github.com/avinash38143/ToDoListReact.git
 cd todo-list-app
 ```
 ### 2. Setting up the Backend
